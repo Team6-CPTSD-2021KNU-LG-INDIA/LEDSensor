@@ -8,6 +8,8 @@
   "icon": "icon.png",
   "requiredPermissions": [
     "time.query",
-    "activity.operation"
+    "activity.operation",
+    ["peripheralmanager.query","all"],
+    ["peripheralmanager.gpio.operation","all"]
   ]
 }
